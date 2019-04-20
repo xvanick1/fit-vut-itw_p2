@@ -1,0 +1,74 @@
+:root{
+    --mainColor: #ffffff;
+}
+
+#nav-div{
+    background-color: rgb(50, 50, 50);
+}
+
+nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 80px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+}
+
+nav .icon{
+    transition: 0.75s;
+}
+
+nav .icon:hover{
+    transform: rotate(-10deg);
+}
+
+nav a{
+    letter-spacing: 0.05em;
+    display: inline-block;
+    vertical-align: middle;
+    horiz-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Arial, serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-underline: none;
+    color: inherit;
+
+    position: relative;
+}
+
+nav a:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.35s ease-in-out 0s;
+    transition: all 0.35s ease-in-out 0s;
+    margin-bottom: -6px;
+}
+
+nav a:not(:first-child):not(.active-page):hover:before{
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+nav .active-page{
+    color: #858991;
+}
+
+nav .active-page svg{
+    transform: rotate(-10deg)
+}
+
+body{
+    margin: 0;
+}
