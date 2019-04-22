@@ -1,8 +1,13 @@
+.invert{
+    background-color: lightgray;
+}
+
 .mapouter{
     position:relative;
     text-align:right;
     height:500px;
     width:700px;
+    margin: 0 auto;
 }
 
 .gmap_canvas{
@@ -10,4 +15,47 @@
     background:none!important;
     height:500px;
     width:700px;
+}
+
+table{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+table td{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+table a{
+    text-decoration: none;
+}
+
+table a:hover{
+    color: cornflowerblue;
+}
+
+table svg{
+    padding-right: 5px;
+}
+
+section{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+h4{
+    padding-bottom: 20px;
+}
+
+.contacts{
+
+    border-style: solid;
+}
+
+.contact{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

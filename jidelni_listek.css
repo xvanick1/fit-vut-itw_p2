@@ -1,0 +1,33 @@
+#food-table{
+    margin: 0 auto;
+}
+
+#food-table td{
+    text-align: center;
+    padding: 10px;
+}
+
+#alergeny ul, #docs-to-food ul{
+    list-style-position: inside;
+    text-align: center;
+    padding-right: 30px;
+    padding-top: 5px;
+}
+
+#alergeny li, #docs-to-food{
+    text-align: center;
+    margin: auto 0;
+    padding-top: 3px;
+}
+
+#docs-to-food a{
+    text-decoration: none;
+}
+
+#docs-to-food ul{
+    list-style-type: none;
+}
+
+#about-alergens{
+    margin-bottom: 50px;
+}
