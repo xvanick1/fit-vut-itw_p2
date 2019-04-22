@@ -1,10 +1,13 @@
 #food-table{
     margin: 0 auto;
+    border:1px solid #000000;
+
 }
 
 #food-table td{
     text-align: center;
     padding: 10px;
+    border:1px solid #000000;
 }
 
 #alergeny ul, #docs-to-food ul{

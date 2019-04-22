@@ -50,12 +50,13 @@ h4{
     padding-bottom: 20px;
 }
 
-.contacts{
-
-    border-style: solid;
-}
-
 .contact{
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+#random-text{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
 }
