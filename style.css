@@ -33,6 +33,7 @@
 
 #nav-div nav .icon{
     transition: 0.75s;
+    width: 50px;
 }
 
 #nav-div nav .icon:hover{
@@ -122,4 +123,8 @@ footer{
     border-style: solid;
     border-color: #000000;
     border-width: 1px;
+}
+
+footer a{
+    color: #ababab;
 }
