@@ -1,3 +1,3 @@
-## Hodnotenie projektu
+# Hodnotenie
 - 30/30b
 
